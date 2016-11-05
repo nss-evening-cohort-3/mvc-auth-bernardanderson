@@ -7,7 +7,7 @@ using System.Web;
 
 namespace MvcAuth.DAL
 {
-    public class BlogContext : DbContext
+    public class BlogContext : ApplicationDbContext
     {
         public virtual DbSet<BlogPost> Posts { get; set; }
     }
